@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<script>
+	function pulaLinha() {
+
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var anoCopa = 1930
+	var limite = prompt("Entre com o ano limite")
+	
+	while(anoCopa <= limite) { 
+		if (anoCopa == 1942){
+
+		mostra("Em 1942 não teve copa por conta da Segunda Guerra Mundial")
+		anoCopa = anoCopa + 4;
+		}
+
+		if (anoCopa == 1946){
+			
+		mostra("Em 1946 não teve copa por conta da Segunda Guerra Mundial")
+		anoCopa = anoCopa + 4;
+		}
+
+		mostra("Teve copa em " + anoCopa);
+		anoCopa = anoCopa + 4;
+	}
+
+	mostra("FIM")
+
+</script>

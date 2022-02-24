@@ -1,0 +1,242 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+
+	}
+
+	function mostraChamps() {
+		
+		while(i<champs.length){
+
+		mostra("Você necessita de skin de " + champs[i] + ".");
+		i++
+
+		}
+	}
+		var i = 0;
+		var conversaoLetra = 0;
+		var posicaoLetra = 0;
+		var achou = false;
+		var letraChamp = 0;
+		var posicaoChamp = 0;
+		var letraInserida = prompt("Entre com uma letra (em maiúsculo)");
+		var letra = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+		var champsA = ["Akshan","Aphelios","Aurelion Sol"];
+		var champsB = ["Bardo"];
+		var champsC = ["Corki"];
+		var champsD = ["Darius","Dr.Mundo",];
+		var champsE = ["Nenhum campeão com a letra E"];
+		var champsF = ["Nenhum campeão com a letra F"];
+		var champsG = ["Gwen"];
+		var champsH = ["Hecarim","Heimerdinger"];
+		var champsI = ["Illaoi"];
+		var champsJ	= ["Janna",];
+		var champsK	= ["Kalista","Kassadin","Kayn","Kindred"];
+		var champsL = ["Lillia","Lissandra","Lulu"];
+		var champsM = ["Nenhum campeão com a letra M"];
+		var champsN = ["Nami"];
+		var champsO = ["Ornn"];
+		var champsP = ["Nenhum campeão com a letra P"];
+		var champsQ = ["Quinn"];
+		var champsR = ["Rek'Sai","Rell"];
+		var champsS = ["Samira","Seraphine","Shyvana"];
+		var champsT = ["Tahm Kench","Taliyah","Taric","Teemo"];
+		var champsU = ["Nenhum campeão com a letra U"];
+		var champsV	= ["Vex","Viego","Viktor"];
+		var champsW = ["Warwick"];
+		var champsX = ["Nenhum campeão com a letra X"];
+		var champsY = ["Yone"];
+		var champsZ	= ["Zoe"];
+
+		while(posicaoLetra<=letra.length) {
+
+			if(letraInserida == letra[posicaoLetra]) {
+
+				letraChamp = posicaoLetra+1
+				achou = true;
+				break;
+
+			}
+
+			posicaoLetra++;
+		}
+			
+		if(achou == false) {
+
+			mostra("O texto que você inseriu ( " + letraInserida + " ) não é válido.");
+		}
+
+		while(conversaoLetra<=letra.length) {
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsA;
+				break;
+			} 
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsB;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsC;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsD;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsE;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsF;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsG;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsH;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsI;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsJ;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsK;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsL;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsM;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsN;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsO;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsP;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsQ;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsR;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsS;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsT;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsU;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsV;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsW;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsX;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsY;
+				break;
+			}
+			conversaoLetra++
+
+			if(letraInserida == letra[conversaoLetra]) {
+				champs = champsZ;
+				break;
+			}
+			conversaoLetra++
+		}
+			
+
+	mostraChamps()
+</script>
